@@ -1,11 +1,10 @@
 <?php include('inc/header.php')?>
 
-
 <?php 
- $genero = $_POST['genero'];
- $edad = $_POST['edad'];
- $estado = $_POST['estado'];
- ?>
+ $genero = $_POST["genero"];
+ $edad = $_POST["edad"];
+ $estado = $_POST["estado"];
+?>
 
 
 <?php include('inc/logic-m.php')?>
@@ -18,9 +17,11 @@
    
       <div class="modal-body">
 
-  <h3 align="center">Ingresa tus datos para recibir tu cotizacion!</h3>
+  <h3 align="center">Ingresa tus datos para completar tu solicitud</h3>
   <h5 align="center">Encontramos precios de 4 aseguradoras.</h5>
-<form>
+
+
+<form >
         <!-- Input -->
       <div class="js-form-message mb-4">
         <div class="js-focus-state input-group u-form">
@@ -63,7 +64,7 @@
               <span class="fa fa-phone u-form__text-inner"></span>
             </span>
           </div>
-          <input type="phone" class="form-control u-form__input" name="email" required
+          <input type="phone" class="form-control u-form__input" name="telefono" required
                  placeholder="Telefono"
                  aria-label="Telefono"
                  data-msg="Por favor ingresa un telefono valido."
@@ -354,7 +355,7 @@
                 <div class="u-pricing-v2 transition-3d-hover">
                   <!-- Header -->
                   <header class="u-pricing-v2__header">
-                    <img src="img/MAPFRE.svg" class="logos-precios mapfre">
+                    <img src="img/SISNOVA.svg" class="logos-precios mapfre">
                     <span class="d-block margen-precio">
                       <span class="display-4 text-dark font-weight-normal">
 

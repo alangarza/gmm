@@ -7851,3 +7851,30 @@ display:inline;}
 .text-dark{
   color: #282828!important;
 }
+
+
+.jquery-add{
+  margin-top:10px!important;
+}
+
+.added-form-rom{
+  margin-top:10px!important;
+
+}
+
+.remove{
+  background-color: #282828;
+  border-color: #282828;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.remove:hover{
+  background-color: #B8BCC3;
+  border-color: #B8BCC3;
+  
+}
+
+.remove:hover, .remove:focus, .remove:active {
+  box-shadow: 0 4px 12px #282828;
+}
