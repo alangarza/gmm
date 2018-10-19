@@ -21,7 +21,7 @@
         <div class="col-6 col-sm-4 col-lg-2 order-lg-2 mb-7 mb-lg-0">
           <!-- Title -->
           <h3 class="h6 text-white">
-            <strong>Línea Seguros</strong>
+            <strong>Proteccion en Linea</strong>
           </h3>
           <!-- End Title -->
 
@@ -73,12 +73,12 @@
           <div class="d-flex align-self-start flex-column h-100">
             <!-- Logo -->
             <a class="d-inline-block mb-4" href="index.html" aria-label="Front">
-              <img src="img/LS-light.svg" alt="Logo" style="width: 120px;">
+              <img src="img/proteccion-light.svg" alt="Logo" style="width: 200px;">
             </a>
             <!-- End Logo -->
 
             <!-- Copyright -->
-            <p class="small u-text-light mt-lg-auto mb-0">&copy; Linea Seguros 2018<br> Todos los derechos reservados.</p>
+            <p class="small u-text-light mt-lg-auto mb-0">&copy; Proteccion en Linea 2018<br> Todos los derechos reservados.</p>
             <!-- End Copyright -->
           </div>
         </div>

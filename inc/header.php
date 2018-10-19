@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>Linea Seguros - Gastos Medicos Mayores</title>
+  <title>Proteccion en Linea - Gastos Medicos Mayores</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -26,6 +26,11 @@
   <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
   <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="assets/vendor/animate.css">
+  <link rel="stylesheet" href="assets/css/tooltip.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
 
   
 
@@ -46,7 +51,7 @@
         <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
           <!-- Logo -->
           <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="index.php" aria-label="Front">
-            <img src="img/ls.svg" alt="Logo" width="100px">
+            <img src="img/proteccion-dark.svg" alt="Logo" width="180px">
           </a>
           <!-- End Logo -->
 

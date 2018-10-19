@@ -7824,3 +7824,30 @@ display:inline;}
   width: 80%;
   margin: 0 auto;
 }
+
+.form-added{
+  margin-top: 20px;
+}
+
+.btn-addform{
+  padding-right: 1px!important;
+  padding-left: 1px!important;
+
+}
+
+.submit-form-all{
+  margin: 15px auto 0px auto;
+}
+.submit-form-all button{
+  font-size: 20px!important;
+}
+
+.quote-container{
+  padding: 30px!important;
+  padding-bottom: 15px!important;
+  padding-right: 15px!important;
+}
+
+.text-dark{
+  color: #282828!important;
+}
