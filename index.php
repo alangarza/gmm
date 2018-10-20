@@ -39,7 +39,7 @@
 
         <div class="bg-white rounded p-7 quote-container">
           <!-- Search Jobs Form -->
-          <form class="js-validate" action="precios.php" method="post">
+          <form class="js-validate" action="inc/submit.php" method="post">
             <div class="row fieldGroup">
          
               <div class="col-lg-3 mb-4 mb-lg-0">
@@ -53,7 +53,7 @@
                   <select class="custom-select" name="genero">
                     <option selected>Genero </option>
                     <option value="femenino">Femenino</option>
-                    <option value="masculino">Masculino</option>
+                    <option value="MASCULINO">Masculino</option>
                   </select>
 
                 </div>
@@ -79,7 +79,7 @@
                     <option value=7>7</option>
                     <option value=8>8</option>
                     <option value=9>9</option>
-                    <option value="10">10</option>
+                    <option value=10>10</option>
                     <option value="11">11</option>
                     <option value="12">12</option>
                     <option value="13">13</option>

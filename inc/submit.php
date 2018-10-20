@@ -1,24 +1,32 @@
-<?php
-if(isset($_POST['submit'])){
-    $generoArr = $_POST['genero'];
-    $edadArr = $_POST['edad'];
-    $estadoArr = $_POST['estado'];
 
-    if(!empty($generoArr)){
-        for($i = 0; $i < count($generoArr); $i++){
-            if(!empty($generoArr[$i])){
-                $genero = $generoArr[$i];
-                $edad = $edadlArr[$i];
-                $estado = $estadolArr[$i];
+<?php 
 
-                
-                //database insert query goes here
+$con = mysqli_connect('138.68.58.202', 'gmm', 'do1Want2now');
 
-                
-            }
-        }
-    }
+if(!$con) {
+
+    echo 'No connection';
 }
-echo($generoArr);
 
+if (!mysqli_select_db($con,'gmmtest')) 
+{
+    echo 'database not selected';
+}
+
+$Genero= $_POST['genero'];
+$Edad = $_POST['edad'];
+$Estado = $_POST['estado'];
+
+
+$sql = "INSERT INTO precotiza (Genero,Edad,Estado) VALUES ('$Genero', '$Edad', '$Estado')";
+
+/**/
+if (!mysqli_query($con,$sql))
+{
+     echo "Not Inserted";
+ }
+ else
+ {
+    echo"Inserted!";
+ }
 ?>
